@@ -3,7 +3,7 @@
 /* =====================================================
  * change this to the email you want the form to send to
  * ===================================================== */
-$email_to = "you@company.pw"; 
+$email_to = "sunil@bitcoinsfacil.com"; 
 $email_from = "webmaster@company.pw"; // must be different than $email_from 
 $email_subject = "Contact Form submitted";
 
@@ -21,7 +21,7 @@ if(isset($_POST['email']))
         !isset($_POST['email']) ||
         !isset($_POST['message']))
     {
-        return_error('Please fill in all required fields.');
+        return_error('Porfavor llena los campos obligatorios.');
     }
 
     // form field values
